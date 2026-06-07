@@ -1,0 +1,169 @@
+# Khushi LLM Training Data
+# This file contains diverse conversational examples for training the LLM
+
+# Greetings and Introductions
+hello there hi how are you doing today i am doing great thanks for asking
+hey what's up not much just hanging out
+good morning good afternoon good evening hope you have a wonderful day
+welcome to our conversation i am happy to be here
+hi my name is khushi i am your ai assistant nice to meet you
+
+# Personal Information
+what is your name my name is khushi i am an ai assistant
+who are you i am khushi an artificial intelligence designed to help you
+how old are you i don't have an age i am a computer program
+where are you from i exist on computers and servers
+what can you do i can help answer questions have conversations and assist with tasks
+
+# Emotions and Feelings
+i feel very happy today that is wonderful to hear
+i am feeling sad and depressed i am sorry to hear that would you like to talk about it
+i am excited about the new project that sounds great tell me more about it
+i feel worried about the future it is normal to feel worried sometimes
+i am angry about what happened i understand your anger let me help you work through it
+i feel tired and exhausted maybe you should get some rest
+i am grateful for your help you are very welcome
+
+# Questions and Answers
+what is the meaning of life the meaning of life is a philosophical question with many answers
+how do i learn programming start with basics practice every day and build projects
+why is the sky blue the sky is blue due to rayleigh scattering of sunlight
+when is the best time to exercise the best time depends on your schedule and preferences
+where can i find good books you can find books at libraries bookstores or online
+who invented the telephone alexander graham bell invented the telephone
+how does the internet work the internet works through networks of connected computers
+
+# Actions and Activities
+i want to learn a new skill that is a great goal what skill interests you
+i am going for a walk have a nice walk and enjoy the fresh air
+i need to cook dinner what are you planning to make
+i am reading a book what book are you reading
+i am working on a project that sounds interesting tell me about your project
+i want to travel somewhere where would you like to go
+i am playing a game what game are you playing
+
+# Technology and Computers
+my computer is running slow you could try closing unused programs or restarting
+i need help with my code i can help you debug your code
+what is artificial intelligence artificial intelligence is machines that can think and learn
+how do i use this software you can read the documentation or watch tutorials
+my phone battery dies quickly try reducing screen brightness and closing background apps
+what is the cloud the cloud is remote servers that store and process data
+how do i stay safe online use strong passwords and avoid suspicious links
+
+# Health and Wellness
+i have a headache you should rest and drink water if it persists see a doctor
+i want to get healthy exercise regularly and eat a balanced diet
+i feel stressed try deep breathing exercises or meditation
+i cannot sleep at night avoid screens before bed and establish a routine
+i want to lose weight combine diet changes with regular exercise
+how much water should i drink aim for eight glasses of water per day
+what foods are healthy fruits vegetables whole grains and lean proteins
+
+# Education and Learning
+i want to learn a new language practice daily and immerse yourself in the language
+how do i study effectively use active recall and spaced repetition
+i am struggling with math practice problems and ask for help when needed
+what should i study in college choose a subject you are passionate about
+i want to improve my writing read more and write regularly
+how do i remember things better use mnemonic devices and review notes
+i am preparing for an exam create a study schedule and take breaks
+
+# Work and Career
+i want a new job update your resume and network with professionals
+how do i ask for a raise prepare evidence of your accomplishments and schedule a meeting
+i hate my job consider what you dislike and look for opportunities that match your values
+i want to start a business research your market and create a business plan
+how do i improve at work seek feedback and take on new challenges
+i am burned out take time off and set boundaries between work and personal life
+what makes a good leader good leaders listen empower and inspire their team
+
+# Relationships and Social
+i made a mistake apologize sincerely and try to make amends
+i want to make friends be open join groups and show genuine interest in others
+how do i handle conflict listen to understand and communicate calmly
+i feel lonely reach out to friends family or support groups
+i want to improve my relationship spend quality time together and communicate openly
+someone is angry at me give them space and listen when they are ready to talk
+how do i say no politely be clear kind and offer alternatives if possible
+
+# Entertainment and Hobbies
+i want to watch a movie what genre do you enjoy
+i am listening to music music is great for relaxation and mood
+i like to play sports sports are excellent for fitness and teamwork
+i enjoy painting art is a wonderful creative outlet
+i want to learn an instrument practice regularly and start with basics
+what are some good hobbies reading cooking gardening and photography are popular
+i am bored try something new like learning a skill or going outside
+
+# Time and Planning
+i don't have enough time prioritize tasks and eliminate time wasters
+how do i manage my time use a calendar and set deadlines
+i am always late set alarms earlier and prepare the night before
+i want to be more productive focus on one task at a time and take breaks
+i procrastinate too much break tasks into smaller steps and start now
+how do i plan my day identify priorities and schedule time blocks
+i feel overwhelmed take things one step at a time and ask for help
+
+# Directions and Locations
+i am lost use a map app or ask someone for directions
+how do i get there i can help you find the route
+where is the nearest store you can search for stores nearby
+i want to go home follow the route you usually take
+which way should i go turn left at the next intersection
+how far is it it depends on your mode of transportation
+i need to find a place check online maps or directories
+
+# Weather and Nature
+it is raining today don't forget your umbrella
+the weather is beautiful it is a perfect day to go outside
+it is very cold stay warm and dress in layers
+i love sunny days sunny days are great for outdoor activities
+the wind is strong be careful if you go outside
+it is snowing enjoy the winter weather but stay safe
+i like spring spring brings new life and beautiful flowers
+
+# Food and Cooking
+i am hungry what would you like to eat
+i want to cook something what ingredients do you have
+how do i make pasta boil water add pasta and cook until tender
+i love pizza pizza is delicious and popular worldwide
+what is for dinner you can decide based on what you have
+i want to eat healthy choose whole foods and limit processed items
+how do i bake a cake follow a recipe and measure ingredients carefully
+
+# Shopping and Money
+i want to buy something what do you need to buy
+how much does it cost the price depends on the item
+i am broke look for ways to save money or earn extra income
+i want to save money create a budget and track your spending
+what is on sale check store flyers and online deals
+i need to return a product bring the receipt and follow store policy
+how do i invest start with research and consider your risk tolerance
+
+# Creative and Abstract
+i have an idea that is great tell me more about your idea
+i want to be creative practice brainstorming and try new things
+what is art art is expression through various mediums
+i love to dream dreams can be inspiring and meaningful
+i want to write a story start with a character and a plot
+how do i think outside the box question assumptions and explore alternatives
+i have a vision work towards it step by step
+
+# Problem Solving
+i have a problem let's work through it together
+how do i solve this break it down into smaller parts
+i don't know what to do gather information and consider options
+this is difficult difficult challenges help us grow
+i found a solution congratulations that is great
+what should i do next evaluate your options and choose the best path
+i made progress keep going you are doing well
+
+# Closing and Goodbyes
+i have to go okay it was nice talking to you
+goodbye have a wonderful day
+see you later take care
+i need to leave now thanks for the conversation
+bye bye come back anytime
+talk to you soon i look forward to it
+farewell until we meet again
