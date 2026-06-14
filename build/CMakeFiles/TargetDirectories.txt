@@ -1,0 +1,13 @@
+/home/ankeshpadvi/AnkeshX/khushi/build/CMakeFiles/llm_lib.dir
+/home/ankeshpadvi/AnkeshX/khushi/build/CMakeFiles/stt_lib.dir
+/home/ankeshpadvi/AnkeshX/khushi/build/CMakeFiles/tts_lib.dir
+/home/ankeshpadvi/AnkeshX/khushi/build/CMakeFiles/command_lib.dir
+/home/ankeshpadvi/AnkeshX/khushi/build/CMakeFiles/web_search_lib.dir
+/home/ankeshpadvi/AnkeshX/khushi/build/CMakeFiles/database_lib.dir
+/home/ankeshpadvi/AnkeshX/khushi/build/CMakeFiles/khushi_ai.dir
+/home/ankeshpadvi/AnkeshX/khushi/build/CMakeFiles/edit_cache.dir
+/home/ankeshpadvi/AnkeshX/khushi/build/CMakeFiles/rebuild_cache.dir
+/home/ankeshpadvi/AnkeshX/khushi/build/CMakeFiles/list_install_components.dir
+/home/ankeshpadvi/AnkeshX/khushi/build/CMakeFiles/install.dir
+/home/ankeshpadvi/AnkeshX/khushi/build/CMakeFiles/install/local.dir
+/home/ankeshpadvi/AnkeshX/khushi/build/CMakeFiles/install/strip.dir

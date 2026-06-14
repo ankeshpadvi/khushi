@@ -1,0 +1,2 @@
+/usr/bin/ar qc libweb_search_lib.a CMakeFiles/web_search_lib.dir/src/web_search/web_search.cpp.o
+/usr/bin/ranlib libweb_search_lib.a

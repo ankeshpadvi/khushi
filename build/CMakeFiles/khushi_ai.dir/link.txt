@@ -1,0 +1,1 @@
+/usr/bin/c++  -Wall -Wextra -O2 CMakeFiles/khushi_ai.dir/src/main.cpp.o -o khushi_ai  libllm_lib.a libstt_lib.a libtts_lib.a libcommand_lib.a libweb_search_lib.a libdatabase_lib.a -lpthread -lcurl -lpq 

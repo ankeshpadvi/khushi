@@ -1,0 +1,2 @@
+/usr/bin/ar qc libtts_lib.a CMakeFiles/tts_lib.dir/src/tts/tts.cpp.o
+/usr/bin/ranlib libtts_lib.a

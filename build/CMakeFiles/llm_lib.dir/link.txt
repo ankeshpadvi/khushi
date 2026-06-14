@@ -1,0 +1,2 @@
+/usr/bin/ar qc libllm_lib.a CMakeFiles/llm_lib.dir/src/llm/llm.cpp.o CMakeFiles/llm_lib.dir/src/llm/ollama_llm.cpp.o
+/usr/bin/ranlib libllm_lib.a

@@ -89,41 +89,20 @@ bool SpeechToText::record_audio() {
 }
 
 void SpeechToText::process_audio() {
-    // Record audio to temporary file with automatic silence detection
+    // Record audio to temporary file
     std::string temp_file = "/tmp/khushi_audio.wav";
     
-    // Record audio with silence detection (2 seconds of silence stops recording)
-    std::string cmd = "arecord -f S16_LE -r 16000 -c 1 -t wav " + temp_file + " 2>/dev/null &";
-    int record_pid = system(cmd.c_str());
+    // Record audio for 5 seconds (fixed duration for reliability)
+    std::string cmd = "arecord -f S16_LE -r 16000 -c 1 -t wav " + temp_file + " -d 5 2>/dev/null";
+    std::cout << "Recording for 5 seconds... Please speak now." << std::endl;
     
-    // Wait for recording to start
-    std::this_thread::sleep_for(std::chrono::milliseconds(500));
-    
-    // Monitor for speech or timeout
-    auto start = std::chrono::steady_clock::now();
-    while (listening_) {
-        auto now = std::chrono::steady_clock::now();
-        if (std::chrono::duration_cast<std::chrono::seconds>(now - start).count() > 10) {
-            // Timeout - stop recording
-            system("pkill -9 arecord 2>/dev/null");
-            break;
-        }
-        
-        // Check if user wants to stop (check for input)
-        if (std::cin.peek() != EOF) {
-            std::string typed;
-            std::getline(std::cin, typed);
-            if (typed == "stop") {
-                system("pkill -9 arecord 2>/dev/null");
-                break;
-            }
-        }
-        
-        std::this_thread::sleep_for(std::chrono::milliseconds(100));
+    int result = system(cmd.c_str());
+    if (result != 0) {
+        std::cerr << "Failed to record audio" << std::endl;
+        return;
     }
     
-    // Wait a bit for recording to finish
-    std::this_thread::sleep_for(std::chrono::milliseconds(500));
+    std::cout << "Recording finished. Transcribing..." << std::endl;
     
     // Use pocketsphinx to transcribe the recorded file
     cmd = "pocketsphinx_continuous -infile " + temp_file + 

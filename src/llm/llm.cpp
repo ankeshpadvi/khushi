@@ -626,14 +626,14 @@ std::string LLM::generate_conversational_response(const std::string& user_input)
     
     // Clean up response
     size_t start = response.find_last_of("Khushi:");
-    if (start != std::string::npos) {
+    if (start != std::string::npos && start + 8 < response.size()) {
         response = response.substr(start + 8);
     }
     
     // Trim whitespace
     start = response.find_first_not_of(" \t\n\r");
     size_t end = response.find_last_not_of(" \t\n\r");
-    if (start != std::string::npos) {
+    if (start != std::string::npos && end != std::string::npos && end >= start && end < response.size()) {
         response = response.substr(start, end - start + 1);
     }
     

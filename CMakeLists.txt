@@ -10,10 +10,12 @@ set(CMAKE_CXX_FLAGS "${CMAKE_CXX_FLAGS} -Wall -Wextra -O2")
 
 # Include directories
 include_directories(${PROJECT_SOURCE_DIR}/include)
+include_directories(/usr/include/postgresql)
 
 # Source files
 set(LLM_SOURCES
     src/llm/llm.cpp
+    src/llm/ollama_llm.cpp
 )
 
 set(STT_SOURCES
@@ -26,6 +28,14 @@ set(TTS_SOURCES
 
 set(COMMAND_SOURCES
     src/command_executor/command_executor.cpp
+)
+
+set(WEB_SEARCH_SOURCES
+    src/web_search/web_search.cpp
+)
+
+set(DATABASE_SOURCES
+    src/database/database.cpp
 )
 
 set(MAIN_SOURCES
@@ -44,6 +54,12 @@ add_library(tts_lib STATIC ${TTS_SOURCES})
 # Create library for Command Executor
 add_library(command_lib STATIC ${COMMAND_SOURCES})
 
+# Create library for Web Search
+add_library(web_search_lib STATIC ${WEB_SEARCH_SOURCES})
+
+# Create library for Database
+add_library(database_lib STATIC ${DATABASE_SOURCES})
+
 # Create executable
 add_executable(khushi_ai ${MAIN_SOURCES})
 
@@ -53,7 +69,11 @@ target_link_libraries(khushi_ai
     stt_lib
     tts_lib
     command_lib
+    web_search_lib
+    database_lib
     pthread
+    curl
+    pq
 )
 
 # Installation
